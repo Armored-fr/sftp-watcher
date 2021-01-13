@@ -1,0 +1,30 @@
+{
+  "name": "sftp-watcher",
+  "version": "2.0.1",
+  "description": "",
+  "main": "service.js",
+  "keywords": [
+    "ssh",
+    "ssh2",
+    "sftp",
+    "watcher",
+    "monitor",
+    "sftp-watcher"
+  ],
+  "dependencies": {
+    "ssh2": "^0.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthasharathi/sftp-watcher.git"
+  },
+  "author": "parthasharathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parthasharathi/sftp-watcher/issues"
+  },
+  "homepage": "https://github.com/parthasharathi/sftp-watcher#readme"
+}
