@@ -1,6 +1,6 @@
 {
   "name": "@acteam-it/sftp-watcher",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "SFTP watcher helps to monitor the SFTP directory and tigger corresponding event. It's easy to start and stop process at any time.",
   "main": "service.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Armored-fr/sftp-watcher/issues"
   },
-  "homepage": "https://github.com/Armored-fr/sftp-watcher#readme"
+  "homepage": "https://github.com/Armored-fr/sftp-watcher#readme",
+  "keywords": [
+    "nodejs",
+    "sftp"
+  ]
 }
