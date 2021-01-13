@@ -26,6 +26,8 @@ module.exports = function(config) {
             });
         }).on('error', function(err) {
             event.emit('error', err.message || err);
+        }).on('close', function() {
+            event.emit('close');
         }).connect(config);
     };
     fileWatcher = function(sftp, folder) {
